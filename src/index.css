@@ -1,1 +1,8 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');@import "tailwindcss";
+
+@theme{
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-allura: 'Allura', cursive;
+  --color-primary: #FF4646;
+  --color-dark: #181C29;
+}
