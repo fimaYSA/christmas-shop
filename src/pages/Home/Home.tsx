@@ -1,3 +1,5 @@
+import BestCards from './BestCards.tsx';
+
 export function Home() {
   return (
     <div
@@ -72,9 +74,7 @@ export function Home() {
                    viewBox='0 0 14 14'
                    fill='none'
                    xmlns='http://www.w3.org/2000/svg'>
-                <path d='M1 7H13.5M13.5 7L7.5 1M13.5 7L7.5 13'
-                      stroke-linecap='round'
-                      stroke-linejoin='round' />
+                <path d='M1 7H13.5M13.5 7L7.5 1M13.5 7L7.5 13' />
               </svg>
             </button>
             <button className='size-14 border rounded-[20px] text-white cursor-pointer
@@ -85,12 +85,20 @@ export function Home() {
                    viewBox='0 0 14 14'
                    fill='none'
                    xmlns='http://www.w3.org/2000/svg'>
-                <path d='M1 7H13.5M13.5 7L7.5 1M13.5 7L7.5 13'
-                      stroke-linecap='round'
-                      stroke-linejoin='round' />
+                <path d='M1 7H13.5M13.5 7L7.5 1M13.5 7L7.5 13' />
               </svg>
             </button>
           </div>
+        </div>
+      </section>
+
+      <section className='py-15'>
+        <div className='max-w-[1276px] mx-auto'>
+          <div className='text-center'>
+            <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Best Gifts</p>
+            <h2 className='text-2xl uppercase font-semibold tracking-widest'>especially for you</h2>
+          </div>
+          <BestCards />
         </div>
       </section>
     </div>
