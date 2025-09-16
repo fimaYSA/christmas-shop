@@ -3,7 +3,7 @@ import {Menu} from "../components/Menu.tsx";
 
 export function Header(){
   return (
-    <header className='flex justify-between px-20 py-3 text-dark'>
+    <header className='mx-auto max-w-[1276px] flex justify-between py-3 text-dark'>
       <Logo/>
       <Menu/>
     </header>
