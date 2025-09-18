@@ -100,7 +100,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className='py-30 bg-[url(./././assets/img-compressed/bg-forest.png)] bg-no-repeat bg-cover'>
+      <section className='w-full py-30 bg-[url(./././assets/img-compressed/bg-forest.png)] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-[426px] mx-auto py-15 flex flex-col gap-5 items-center text-center'>
           <h2 className='text-2xl uppercase font-semibold tracking-widest'>Ready to start your journey to a better
                                                                            version of yourself?
