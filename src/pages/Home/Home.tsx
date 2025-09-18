@@ -1,4 +1,6 @@
 import BestCards from './BestCards.tsx';
+import {BtnExploreMagicalGifts} from '../../components/button/BtnExploreMagicalGifts.tsx';
+import {SoonNewYear} from '../../components/SoonNewYear.tsx';
 
 export function Home() {
   return (
@@ -15,11 +17,7 @@ export function Home() {
           <h1 className='text-[32px] uppercase font-semibold tracking-[5.5px] text-center'>
             Gift yourself the magic of new possibilities
           </h1>
-          <button className='text-xs uppercase font-semibold tracking-wider px-8 py-5
-                       rounded-[20px] bg-dark hover:bg-white hover:text-dark cursor-pointer
-                       transition-colors duration-300'>
-            Explore Magical Gifts
-          </button>
+          <BtnExploreMagicalGifts />
           <p className='font-allura tracking-wider text-2xl leading-none'>
             and Happy New Year
           </p>
@@ -99,6 +97,16 @@ export function Home() {
             <h2 className='text-2xl uppercase font-semibold tracking-widest'>especially for you</h2>
           </div>
           <BestCards />
+        </div>
+      </section>
+
+      <section className='py-30 bg-[url(./././assets/img-compressed/bg-forest.png)] bg-no-repeat bg-cover'>
+        <div className='max-w-[426px] mx-auto py-15 flex flex-col gap-5 items-center text-center'>
+          <h2 className='text-2xl uppercase font-semibold tracking-widest'>Ready to start your journey to a better
+                                                                           version of yourself?
+          </h2>
+          <BtnExploreMagicalGifts />
+          <SoonNewYear/>
         </div>
       </section>
     </div>
