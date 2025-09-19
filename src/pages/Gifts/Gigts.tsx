@@ -1,10 +1,7 @@
-import {Header} from '../../Header/Header.tsx';
-import {Footer} from '../../Footer/Footer.tsx';
 import GiftsCards from './GiftsCards.tsx';
 
 export default function Gifts() {
   return <>
-    <Header />
     <main className='px-2 py-15 bg-primary
       bg-[url(../../../src/assets/img-compressed/bg-garland.png)] bg-no-repeat bg-contain'>
       <section className='max-w-319 mx-auto font-montserrat font-semibold uppercase text-white
@@ -21,6 +18,5 @@ export default function Gifts() {
         <GiftsCards />
       </section>
     </main>
-    <Footer />
   </>
 }

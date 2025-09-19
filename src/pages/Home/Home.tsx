@@ -1,12 +1,9 @@
 import BestCards from './BestCards.tsx';
 import {BtnExploreMagicalGifts} from '../../components/button/BtnExploreMagicalGifts.tsx';
 import {SoonNewYear} from '../../components/SoonNewYear.tsx';
-import {Header} from '../../Header/Header.tsx';
-import {Footer} from '../../Footer/Footer.tsx';
 
 export function Home() {
   return <>
-    <Header />
     <main
       className='bg-primary px-2 rounded-t-[20px] font-montserrat text-white
                  bg-[url(./././assets/img-compressed/bg-snow.png)] bg-contain bg-repeat-y
@@ -109,10 +106,9 @@ export function Home() {
                                                                            version of yourself?
           </h2>
           <BtnExploreMagicalGifts />
-          <SoonNewYear/>
+          <SoonNewYear />
         </div>
       </section>
     </main>
-    <Footer />
   </>
 }
