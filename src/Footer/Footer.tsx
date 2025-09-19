@@ -61,7 +61,8 @@ export function Footer() {
           <p className='text-base my-3'>
             © Copyright 2025, All Rights Reserved
           </p>
-          <p className='font-allura text-2xl tracking-wider leading-none hover:text-primary transition duration-300'>
+          <p className='font-allura text-2xl tracking-wider leading-none hover:text-primary transition duration-300
+            cursor-pointer'>
             Made in Rolling Scopes School
           </p>
         </div>
