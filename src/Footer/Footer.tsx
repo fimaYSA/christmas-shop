@@ -2,7 +2,7 @@ import FooterCards from './FooterCards.tsx';
 
 export function Footer() {
   return (
-    <footer className='px-2 py-15 text-dark font-montserrat'>
+    <footer id='footer' className='px-2 py-15 text-dark font-montserrat'>
       <div className='max-w-319 mx-auto flex flex-col gap-15'>
         <FooterCards />
         <div className='self-center'>

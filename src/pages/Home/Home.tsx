@@ -24,7 +24,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className='py-15'>
+      <section id='about' className='py-15'>
         <div className='mx-auto max-w-[1276px] bg-white flex rounded-[20px]'>
           <div className='px-15 w-1/2 flex flex-col gap-5 justify-center'>
             <p className='font-allura text-primary text-2xl tracking-wider leading-none'>About</p>
@@ -90,7 +90,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className='py-15'>
+      <section id='best' className='py-15'>
         <div className='max-w-[1276px] mx-auto'>
           <div className='text-center'>
             <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Best Gifts</p>
