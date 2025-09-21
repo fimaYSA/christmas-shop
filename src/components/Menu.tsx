@@ -1,4 +1,5 @@
 import {NavHashLink} from 'react-router-hash-link';
+import {useLocation} from 'react-router';
 
 const BTN_MENU = [
   {
@@ -7,32 +8,37 @@ const BTN_MENU = [
   },
   {
     name: 'about',
-    link: '/#about'
+    link: 'home/#about'
   },
   {
     name: 'best',
-    link: '/#best'
+    link: 'home/#best'
   },
   {
     name: 'contacts',
-    link: '#footer'
+    link: 'footer'
   },
 ]
 
 export function Menu() {
+  const {pathname} = useLocation()
+
   return (
-    <div className='font-montserrat font-semibold uppercase text-xs tracking-wide
-      inline-flex gap-2 cursor-pointer'>
+    <nav className='font-montserrat font-semibold uppercase text-xs tracking-wide
+      inline-flex gap-2'>
       {BTN_MENU.map(btn =>
         <NavHashLink smooth
                      to={btn.link}
-                     key={btn.name}>
-          <div className='px-5 py-3 rounded-xl hover:bg-primary/10
-            hover:text-primary transition-colors duration-300'>
+                     key={btn.name}
+                     end>
+          <div className={`px-5 py-3 rounded-xl 
+            ${pathname !== ('/' + btn.link)
+            ? 'hover:bg-primary/10 hover:text-primary transition-colors duration-300'
+            : 'cursor-default'}`}>
             {btn.name}
           </div>
         </NavHashLink>
       )}
-    </div>
+    </nav>
   )
 }
