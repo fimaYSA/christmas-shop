@@ -1,4 +1,5 @@
 import GiftsCards from './GiftsCards.tsx';
+import GiftsMenuSorting from './GiftsMenuSorting.tsx';
 
 export default function Gifts() {
   return <>
@@ -9,12 +10,7 @@ export default function Gifts() {
         <h1 className='max-w-106.5 text-[32px] leading-12 tracking-[6px] text-center'>
           Achieve health, harmony, and inner strength
         </h1>
-        <div className='max-w-118.5 grid auto-cols-max grid-flow-col gap-2 text-xs leading-4 tracking-wider'>
-          <div className='px-5 py-3 hover:bg-white/20 rounded-xl'>All</div>
-          <div className='px-5 py-3 hover:bg-white/20 rounded-xl'>for work</div>
-          <div className='px-5 py-3 hover:bg-white/20 rounded-xl'>for health</div>
-          <div className='px-5 py-3 hover:bg-white/20 rounded-xl'>for harmony</div>
-        </div>
+        <GiftsMenuSorting />
         <GiftsCards />
       </section>
     </main>
