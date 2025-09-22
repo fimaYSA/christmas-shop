@@ -1,15 +1,19 @@
 import BestCards from './BestCards.tsx';
 import {BtnExploreMagicalGifts} from '../../components/button/BtnExploreMagicalGifts.tsx';
 import {SoonNewYear} from '../../components/SoonNewYear.tsx';
+import snowman from '../../assets/images/img-slider/snowman.png'
+import christmasTreeBall from '../../assets/images/img-slider/christmas-tree-ball.png'
+import christmasTrees from '../../assets/images/img-slider/christmas-trees.png'
+import fairytaleHouse from '../../assets/images/img-slider/fairytale-house.png'
 
 export function Home() {
   return <>
     <main
       className='bg-primary px-2 rounded-t-[20px] font-montserrat text-white
-                 bg-[url(./././assets/img-compressed/bg-snow.png)] bg-contain bg-repeat-y
+                 bg-[url(/img-bg/bg-snow.png)] bg-contain bg-repeat-y
                  overflow-hidden'
     >
-      <section className='py-15 bg-[url(./././assets/img-compressed/bg-ball.png)] bg-cover bg-center bg-no-repeat'>
+      <section className='py-15 bg-[url(/img-bg/bg-ball.png)] bg-cover bg-center bg-no-repeat'>
         <div className='w-[426px] py-15 mx-auto flex flex-col items-center gap-3'>
           <p className='font-allura tracking-wider text-2xl leading-none'>
             Merry Christmas
@@ -24,7 +28,8 @@ export function Home() {
         </div>
       </section>
 
-      <section id='about' className='py-15'>
+      <section id='about'
+               className='py-15'>
         <div className='mx-auto max-w-[1276px] bg-white flex rounded-[20px]'>
           <div className='px-15 w-1/2 flex flex-col gap-5 justify-center'>
             <p className='font-allura text-primary text-2xl tracking-wider leading-none'>About</p>
@@ -35,7 +40,7 @@ export function Home() {
                                                              gifts that will help you improve your life.
             </p>
           </div>
-          <div className='w-1/2 h-[528px] bg-[url(./././assets/img-compressed/santa.png)]
+          <div className='w-1/2 h-[528px] bg-[url(/santa.png)]
                          bg-center bg-no-repeat rounded-[20px]'></div>
         </div>
       </section>
@@ -48,19 +53,19 @@ export function Home() {
           </div>
           <div className='inline-flex gap-5 items-center my-5'>
             <span className='font-semibold text-[80px] uppercase'>live</span>
-            <img src='../../../src/assets/img-compressed/snowman.png'
+            <img src={snowman}
                  alt=''
                  className='size-50 rounded-[20px]' />
             <span className='font-semibold text-[80px] uppercase'>create</span>
-            <img src='../../../src/assets/img-compressed/christmas-trees.png'
+            <img src={christmasTrees}
                  alt=''
                  className='size-50 rounded-[20px]' />
             <span className='font-semibold text-[80px] uppercase'>Love</span>
-            <img src='../../../src/assets/img-compressed/christmas-tree-ball.png'
+            <img src={christmasTreeBall}
                  alt=''
                  className='size-50 rounded-[20px]' />
             <span className='font-semibold text-[80px] uppercase'>dream</span>
-            <img src='../../../src/assets/img-compressed/fairytale-house.png'
+            <img src={fairytaleHouse}
                  alt=''
                  className='size-50 rounded-[20px]' />
           </div>
@@ -90,7 +95,8 @@ export function Home() {
         </div>
       </section>
 
-      <section id='best' className='py-15'>
+      <section id='best'
+               className='py-15'>
         <div className='max-w-[1276px] mx-auto'>
           <div className='text-center'>
             <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Best Gifts</p>
@@ -100,7 +106,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className='w-full py-30 bg-[url(./././assets/img-compressed/bg-forest.png)] bg-no-repeat bg-cover bg-center'>
+      <section className='w-full py-30 bg-[url(/img-bg/bg-forest.png)] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-[426px] mx-auto py-15 flex flex-col gap-5 items-center text-center'>
           <h2 className='text-2xl uppercase font-semibold tracking-widest'>Ready to start your journey to a better
                                                                            version of yourself?

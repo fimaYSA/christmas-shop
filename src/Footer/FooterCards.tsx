@@ -1,22 +1,25 @@
 import CardFooter, {type CardFooterT} from '../components/CardFooter.tsx';
+import santaClaus from '../assets/images/img-footer/santa-claus.png'
+import christmasTree from '../assets/images/img-footer/christmas-tree.png'
+import snake from '../assets/images/img-footer/snake.png'
 
 const cards: CardFooterT[] = [
   {
     name: '+375 (29) 111-22-33',
     categories: 'Call Us',
-    img: '../../src/assets/img-footer/santa-claus.png',
+    img: santaClaus,
     href: 'tel:+375291112233'
   },
   {
     name: 'Magic forest',
     categories: 'meet us',
-    img: '../../src/assets/img-footer/christmas-tree.png',
+    img: christmasTree,
     href: 'https://www.google.com/maps/search/?api=1&query=Minsk'
   },
   {
     name: 'gifts@magic.com',
     categories: 'write us',
-    img: '../../src/assets/img-footer/snake.png',
+    img: snake,
     href: 'mailto:gifts@magic.com'
   },
 ]
