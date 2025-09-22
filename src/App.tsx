@@ -13,11 +13,11 @@ function App() {
         {/*<Route element={<Layout />}>*/}
         <Route path='*'
                element={<Home />} />
-        <Route path='home/:id'
+        <Route path='/'
                element={<Home />} />
-        <Route path='gifts'
+        <Route path='/gifts'
                element={<Gifts />} />
-        <Route path='footer'
+        <Route path='/footer'
                element={''} />
         {/*</Route>*/}
       </Routes>

@@ -4,19 +4,19 @@ import {useLocation} from 'react-router';
 const BTN_MENU = [
   {
     name: 'gifts',
-    link: 'gifts'
+    link: '/gifts'
   },
   {
     name: 'about',
-    link: 'home/#about'
+    link: '/#about'
   },
   {
     name: 'best',
-    link: 'home/#best'
+    link: '/#best'
   },
   {
     name: 'contacts',
-    link: 'footer'
+    link: '/footer'
   },
 ]
 
@@ -32,7 +32,7 @@ export function Menu() {
                      key={btn.name}
                      end>
           <div className={`px-5 py-3 rounded-xl 
-            ${pathname !== ('/' + btn.link)
+            ${pathname !== btn.link
             ? 'hover:bg-primary/10 hover:text-primary transition-colors duration-300'
             : 'cursor-default'}`}>
             {btn.name}
