@@ -18,7 +18,7 @@ export function Home() {
           <p className='font-allura tracking-wider text-2xl leading-none'>
             Merry Christmas
           </p>
-          <h1 className='text-[32px] uppercase font-semibold tracking-[5.5px] text-center'>
+          <h1 className='text-[32px] uppercase font-semibold tracking-[5.6px] text-center'>
             Gift yourself the magic of new possibilities
           </h1>
           <BtnExploreMagicalGifts />
@@ -33,7 +33,7 @@ export function Home() {
         <div className='mx-auto max-w-[1276px] bg-white flex rounded-[20px]'>
           <div className='px-15 w-1/2 flex flex-col gap-5 justify-center'>
             <p className='font-allura text-primary text-2xl tracking-wider leading-none'>About</p>
-            <h2 className='text-dark text-2xl uppercase font-semibold tracking-widest'>Unleash your inner superhero!
+            <h2 className='text-dark text-2xl uppercase font-semibold tracking-[4.6px] leading-9'>Unleash your inner superhero!
             </h2>
             <p className='text-base text-dark max-w-[426px]'>This New Year marks the beginning of your journey to inner
                                                              harmony and new strengths. We offer unique
@@ -49,7 +49,7 @@ export function Home() {
         <div className='max-w-[1276px] mx-auto'>
           <div className='text-center'>
             <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Become Happier!</p>
-            <h2 className='text-2xl uppercase font-semibold tracking-[4.6px]'>in the new 2025</h2>
+            <h2 className='text-2xl uppercase font-semibold tracking-[4.6px] leading-9'>in the new 2025</h2>
           </div>
           <div className='inline-flex gap-5 items-center my-5'>
             <span className='font-semibold text-[80px] uppercase'>live</span>
@@ -100,7 +100,7 @@ export function Home() {
         <div className='max-w-[1276px] mx-auto'>
           <div className='text-center'>
             <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Best Gifts</p>
-            <h2 className='text-2xl uppercase font-semibold tracking-[4.6px]'>especially for you</h2>
+            <h2 className='text-2xl uppercase font-semibold tracking-[4.6px] leading-9'>especially for you</h2>
           </div>
           <BestCards />
         </div>
@@ -108,7 +108,7 @@ export function Home() {
 
       <section className='w-full py-30 bg-[url(/img-bg/bg-forest.png)] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-[426px] mx-auto py-15 flex flex-col gap-5 items-center text-center'>
-          <h2 className='text-2xl uppercase font-semibold tracking-[4.6px]'>Ready to start your journey to a better
+          <h2 className='text-2xl uppercase font-semibold tracking-[4.6px] leading-9'>Ready to start your journey to a better
                                                                            version of yourself?
           </h2>
           <BtnExploreMagicalGifts />

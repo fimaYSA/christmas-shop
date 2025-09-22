@@ -14,10 +14,10 @@ export default function CardFooter(props: CardFooterT) {
       <img className='size-20 mx-auto'
            src={props.img}
            alt='' />
-      <div className='my-3 text-2xl tracking-widest leading-9 font-semibold'>
+      <div className='my-3 text-2xl tracking-[3.8px] leading-9 font-semibold'>
         {props.name}
       </div>
-      <h3 className='text-base leading-6 tracking-widest font-semibold'>{props.categories}</h3>
+      <h3 className='text-base leading-6 tracking-[1.2px] font-semibold'>{props.categories}</h3>
     </a>
   )
 }

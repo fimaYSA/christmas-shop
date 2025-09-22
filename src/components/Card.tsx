@@ -24,7 +24,7 @@ export default function Card(props: CardT) {
            className=' h-[230px]' />
       <div className='h-[112px] p-5 bg-white rounded-[20px]'>
         <h4 className={`text-xs tracking-wide ${color}`}>{'for ' + props.categories}</h4>
-        <h3 className='text-base tracking-wider mt-2'>{props.name}</h3>
+        <h3 className='text-base tracking-[1.2px] mt-2'>{props.name}</h3>
       </div>
     </div>
   )

@@ -53,7 +53,7 @@ const giftsCards: CardT[] = [
 
 export default function GiftsCards() {
   return (
-    <div className='w-full mt-5 grid grid-cols-[repeat(auto-fill,max(310px))] gap-3 justify-center'>
+    <div className='w-full grid grid-cols-[repeat(auto-fill,max(310px))] gap-3 justify-center'>
       {giftsCards.map(card => {
 
           return <Card name={card.name}
