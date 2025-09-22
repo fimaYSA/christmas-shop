@@ -49,7 +49,7 @@ export function Home() {
         <div className='max-w-[1276px] mx-auto'>
           <div className='text-center'>
             <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Become Happier!</p>
-            <h2 className='text-2xl uppercase font-semibold tracking-widest'>in the new 2025</h2>
+            <h2 className='text-2xl uppercase font-semibold tracking-[4.6px]'>in the new 2025</h2>
           </div>
           <div className='inline-flex gap-5 items-center my-5'>
             <span className='font-semibold text-[80px] uppercase'>live</span>
@@ -100,7 +100,7 @@ export function Home() {
         <div className='max-w-[1276px] mx-auto'>
           <div className='text-center'>
             <p className='font-allura text-2xl tracking-wider leading-none mb-3'>Best Gifts</p>
-            <h2 className='text-2xl uppercase font-semibold tracking-widest'>especially for you</h2>
+            <h2 className='text-2xl uppercase font-semibold tracking-[4.6px]'>especially for you</h2>
           </div>
           <BestCards />
         </div>
@@ -108,7 +108,7 @@ export function Home() {
 
       <section className='w-full py-30 bg-[url(/img-bg/bg-forest.png)] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-[426px] mx-auto py-15 flex flex-col gap-5 items-center text-center'>
-          <h2 className='text-2xl uppercase font-semibold tracking-widest'>Ready to start your journey to a better
+          <h2 className='text-2xl uppercase font-semibold tracking-[4.6px]'>Ready to start your journey to a better
                                                                            version of yourself?
           </h2>
           <BtnExploreMagicalGifts />
