@@ -1,6 +1,6 @@
 import {Home} from './pages/Home/Home.tsx'
 import {Route, Routes} from 'react-router';
-import Gifts from './pages/Gifts/Gigts.tsx';
+import Gifts from './pages/Gifts/Gifts.tsx';
 import {Header} from './Header/Header.tsx';
 import {Footer} from './Footer/Footer.tsx';
 
