@@ -25,7 +25,7 @@ export function Menu() {
 
   return (
     <nav className='font-montserrat font-semibold uppercase text-xs tracking-wide
-      inline-flex gap-2'>
+      md:inline-flex gap-2 hidden'>
       {BTN_MENU.map(btn =>
         <NavHashLink smooth
                      to={btn.link}
