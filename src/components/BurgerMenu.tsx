@@ -34,7 +34,8 @@ function BurgerMenu() {
           <NavHashLink to={b.link}
                        className={'px-5 py-3'}
                        onClick={toggleMenu}
-                       smooth>
+                       smooth
+                       key={b.name}>
             {b.name}
           </NavHashLink>
         )}

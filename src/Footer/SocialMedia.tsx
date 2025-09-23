@@ -51,9 +51,10 @@ const socialMedia = [
 export default function SocialMedia() {
   return (
     <div className='flex gap-3 justify-center'>
-      {socialMedia.map(el =>
+      {socialMedia.map((el, index) =>
         <a href={el.href}
            target='_blank'
+           key={index}
            className='size-10 p-2 hover:text-primary cursor-pointer transition duration-300r'>
           {el.svg}
         </a>
