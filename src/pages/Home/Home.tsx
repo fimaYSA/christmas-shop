@@ -14,7 +14,7 @@ export function Home() {
                  overflow-hidden'
     >
       <section className='py-15 bg-[url(/img-bg/bg-ball.png)] bg-cover bg-center bg-no-repeat'>
-        <div className='w-[426px] py-15 mx-auto flex flex-col items-center gap-3'>
+        <div className='w-full xs:w-[426px] py-15 mx-auto flex flex-col items-center gap-3'>
           <p className='font-allura tracking-wider text-2xl leading-none'>
             Merry Christmas
           </p>
@@ -30,17 +30,18 @@ export function Home() {
 
       <section id='about'
                className='py-15'>
-        <div className='mx-auto max-w-[1276px] bg-white flex rounded-[20px]'>
-          <div className='px-15 w-1/2 flex flex-col gap-5 justify-center'>
+        <div className='mx-auto max-w-[1276px] bg-white flex flex-col xs:flex-row rounded-[20px]'>
+          <div className='px-5 py-15 sm:px-15 xs:w-1/2 flex flex-col gap-5 justify-center'>
             <p className='font-allura text-primary text-2xl tracking-wider leading-none'>About</p>
-            <h2 className='text-dark text-2xl uppercase font-semibold tracking-[4.6px] leading-9'>Unleash your inner superhero!
+            <h2 className='text-dark text-2xl uppercase font-semibold tracking-[4.5px] leading-9'>Unleash your inner
+                                                                                                  superhero!
             </h2>
             <p className='text-base text-dark max-w-[426px]'>This New Year marks the beginning of your journey to inner
                                                              harmony and new strengths. We offer unique
                                                              gifts that will help you improve your life.
             </p>
           </div>
-          <div className='w-1/2 h-[528px] bg-[url(/santa.png)]
+          <div className='xs:w-1/2 h-[528px] bg-[url(/santa.png)]
                          bg-center bg-no-repeat rounded-[20px]'></div>
         </div>
       </section>
@@ -108,8 +109,8 @@ export function Home() {
 
       <section className='w-full py-30 bg-[url(/img-bg/bg-forest.png)] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-[426px] mx-auto py-15 flex flex-col gap-5 items-center text-center'>
-          <h2 className='text-2xl uppercase font-semibold tracking-[4.6px] leading-9'>Ready to start your journey to a better
-                                                                           version of yourself?
+          <h2 className='text-2xl uppercase font-semibold tracking-[4.5px] leading-9'>
+            Ready to start your journey to a better version of yourself?
           </h2>
           <BtnExploreMagicalGifts />
           <SoonNewYear />
