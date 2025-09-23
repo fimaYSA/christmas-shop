@@ -25,8 +25,8 @@ function BurgerMenu() {
 
       {/* Меню */}
       <div
-        className={`absolute top-0 right-0 w-full h-full bg-white flex-col inline-flex 
-        justify-center gap-2 items-center font-montserrat text-2xl font-semibold uppercase tracking-[3.8px]
+        className={`absolute top-0 right-0 w-full h-full bg-white flex-col inline-flex justify-center py-15
+        xs:justify-start  gap-2 items-center font-montserrat text-2xl font-semibold uppercase tracking-[3.8px]
         leading-9 transition duration-300 delay-150 -translate-y-full z-1
         ${isOpen ? 'translate-y-0' : ''}`}
       >
