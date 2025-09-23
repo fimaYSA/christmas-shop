@@ -11,9 +11,9 @@ export default function GiftsMenuSorting() {
   }
 
   return (
-    <nav className='max-w-118.5 grid auto-cols-max grid-flow-col gap-2 text-xs leading-4 tracking-wider'>
+    <nav className='max-w-118.5 grid auto-cols-max grid-flow-col xs:gap-2 text-xs leading-4 tracking-wider'>
       {SEARCH_BTN.map(btn =>
-        <div className={`px-5 py-3 rounded-xl cursor-default
+        <div className={`px-2 xs:px-5 py-3 rounded-xl cursor-default
         ${btn === selected ? 'text-dark bg-white/10' : 'hover:bg-white/20 cursor-pointer'}`}
              onClick={handleClick}>{btn}</div>
       )}
